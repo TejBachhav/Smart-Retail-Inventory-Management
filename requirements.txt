@@ -1,1 +1,24 @@
 jupyterlab>3.0
+# PyTorch with CUDA support
+torch==2.1.0+cu117
+torchvision==0.15.2+cu117
+torchaudio==2.1.0+cu117
+
+# YOLOv5 dependencies
+opencv-python-headless
+matplotlib
+pyyaml
+
+# Dashboard dependencies
+dash
+plotly
+flask
+
+# Alerting and database
+secure-smtplib
+twilio
+sqlalchemy
+
+# Additional useful libraries
+numpy
+pandas
